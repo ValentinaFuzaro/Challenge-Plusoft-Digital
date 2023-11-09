@@ -1,5 +1,24 @@
 # Challenge
 
+# How to
+- 1º Acesse o Azure DevOps e vá para Repos para importar o repositório da sua aplicação.
+- 2º	Para importar, clique na equipe que você criou, escolha "Import Repository," e adicione o link do repositório do GitHub.
+## CI Pipelines (Build)
+- 1º	Crie uma pipeline usando o editor clássico.
+- 2º	Especifique o repositório e branch para o build.
+- 3º	Escolha o template do projeto (por exemplo, Maven) e configure a pipeline com base no <a href="">YAML</a> fornecido no link.
+- 4º	Salve e execute o build.
+## CD Pipeline (Deploy)
+- 1º	Crie uma release clicando em "New Release."
+- 2º	Escolha o template "Azure App Service deployment" e dê um nome para o Stage.
+- 3º	Adicione o build criado em "Artifacts."
+- 4º	Ative o filtro do artefato para a branch principal em "Pre-Deployment Conditions."
+- 5º	Configure o Stage 1, adicionando a Assinatura da Azure, o nome do App Service, e outras configurações.
+- 6º	Adicione variáveis, como um objeto "Server" com o valor "myserver.com.br."
+- 7º	Salve a release e clique em "Create Release" para executá-la.
+- 8º	Após o deploy, acesse Logs > Web App Deploy para encontrar a URL da aplicação.
+
+
 Uma API feita para coletar feedbacks dos usuarios
 
 ## Endpoints
