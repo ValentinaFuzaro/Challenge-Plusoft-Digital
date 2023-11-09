@@ -1,4 +1,5 @@
-# Challenge
+# Solução
+Nossa proposta é desenvolver uma plataforma para a Plusotf que tem como objetivo a coleta de feedback dos usuários finais dos produtos que a Plusoft desenvolve em todos seus segmentos. Dessa forma, contribuímos para que a jornada do cliente seja cada vez mais satisfatória e assertiva. A coleta de feedbacks é fundamental na jornada CX porque permite às empresas entenderem melhor como os usuários estão percebendo a experiência e o que pode ser feito para melhorá-la.
 
 # How to
 - 1º Acesse o Azure DevOps e vá para Repos para importar o repositório da sua aplicação.
@@ -19,7 +20,7 @@
 - 8º	Após o deploy, acesse Logs > Web App Deploy para encontrar a URL da aplicação.
 
 
-Uma API feita para coletar feedbacks dos usuarios
+# API feita para coletar feedbacks dos usuarios
 
 ## Endpoints
 - Usuarios
