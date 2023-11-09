@@ -6,7 +6,7 @@
 ## CI Pipelines (Build)
 - 1º	Crie uma pipeline usando o editor clássico.
 - 2º	Especifique o repositório e branch para o build.
-- 3º	Escolha o template do projeto (por exemplo, Maven) e configure a pipeline com base no <a href="">YAML</a> fornecido no link.
+- 3º	Escolha o template do projeto (por exemplo, Maven) e configure a pipeline com base no <a href="https://github.com/ValentinaFuzaro/Challenge-Plusoft-Digital/blob/main/pipeline.yaml">YAML</a> fornecido no link.
 - 4º	Salve e execute o build.
 ## CD Pipeline (Deploy)
 - 1º	Crie uma release clicando em "New Release."
